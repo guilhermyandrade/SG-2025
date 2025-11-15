@@ -5,6 +5,6 @@ export interface UserDTO {
     supabaseId: string;
     hasMFA: boolean;
     factorId: string;
-    isMFAValidated?: boolean;
-    isFirstMFAAccess?: boolean;
+    isMfaValidated?: boolean;
+    isFirstMfaAccess?: boolean;
 }
